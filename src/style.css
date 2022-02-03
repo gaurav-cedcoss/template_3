@@ -61,10 +61,59 @@ span{
 }
 .inner_card{
     background-color: #d3d3d367;
-    padding: 78px 148px 70px 50px;
+    padding: 85% 74% 48% 39%;
 }
 
 .flex_box{
     display: flex;
     place-content: center;
 }
+
+#footer{
+    width: 96%;
+    background-color: #d3d3d367;
+    padding: 3.5%;
+    /* float: right; */
+    
+}
+
+input[type=text] {
+    
+    margin-right: .2%;
+  }
+
+#sub{
+    float:left;
+    padding-left: 27%;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* .footer_form{
+    float: right;
+    padding-right: 40%;
+} */
+
+.button1{
+    background-color: steelblue;
+    float: right;
+    width: 22%;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    font-size:medium;
+    margin-right: 20%;
+    padding: .3% 1% .3% 4%;
+}
+
+@media screen and (max-width: 500px) {
+    .button1 ,.inner_card {
+      width: 100%; 
+    }
+  }
+
+#last{
+    float: right;
+}
+
+
