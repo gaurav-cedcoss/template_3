@@ -1,11 +1,70 @@
-body{
-    margin: 6% 5% 6% 5%;
-}
 li{
+    float: left;
     list-style-type: none;
+}
+li a{
+    padding: 24px;
+    font-size: 18px;
+}
+nav{
     float: right;
-    padding: 2px;
-    margin: 0% 1% 0% 1%;
+}
+body{
+    margin: 7% 5% 5% 5% ;
+}
+#header{
+    overflow: hidden;
+}
+h1{
+    padding: 16px;
 }
 
+.div_box{
+    background-color: #d3d3d367;
+    padding: 2%;
+}
 
+.width_33{
+    width: 33%;
+}
+ #power_ecommerce{
+     padding-left: 1%;
+     text-align: left !important;
+ }
+#paraHt{
+    line-height: 1.5;
+}
+
+#learn_more_btn{
+    padding: 5px;
+}
+
+.main_card{
+    float: left;
+    width: 20%;
+    display: flex;
+    flex-wrap: nowrap; 
+    margin: 30px;
+    display: block;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+span{
+    font-size: medium;
+}
+#content{
+    margin: auto;
+}
+.inner_card{
+    background-color: #d3d3d367;
+    padding: 78px 148px 70px 50px;
+}
+
+.flex_box{
+    display: flex;
+    place-content: center;
+}
